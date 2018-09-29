@@ -1,0 +1,334 @@
+body {
+    background-image: url("paper.jpg");
+}
+#header {
+    width: 100%;
+    height: 100px;
+    background: #fff;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    box-shadow: 0px 2px #afafaf;
+    clear: both;
+}
+#nametag {
+    background: rgb(255, 187, 0);
+    color: #fff;
+    width: 250px;
+    position: absolute;
+    left: 15%;
+    font-size: 26;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+#sidelinks {
+    background: #fff;
+    width: 300px;
+    left: 920px;
+    text-align: center;
+    color: rgb(155, 155, 155);
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+}
+#aboutbox {
+    background: #fff;
+    margin-top: 20px;
+    width: 960px;
+    height: 470px;
+    clear: both;
+    float: center;
+    position: absolute;
+    left: 15%;
+    top: 120px;
+    border: 1px solid #afafaf;
+    margin-bottom: 100px;
+}
+#aboutme {
+    font-size: 28;
+    color:  rgb(255, 187, 0);;
+    box-shadow: 0px 1px #afafaf;
+    width: 900px;
+    margin-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+#mypic {
+      top: 90px;
+    padding: 30px;
+    float: left;
+}
+#bio {
+    text-align: left;
+    margin: 30px;
+    top: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+}
+#portfoliobox {
+    background: #fff;
+    margin-top: 20px;
+    width: 960px;
+    height: 650px;
+    clear: both;
+    float: center;
+    position: absolute;
+    left: 15%;
+    top: 120px;
+    border: 1px solid #afafaf;
+    margin-bottom: 100px;
+}
+#portfoliohead {
+    font-size: 28;
+    color:  rgb(255, 187, 0);;
+    box-shadow: 0px 1px #afafaf;
+    width: 900px;
+    margin-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+#footer {
+    width: 100%;
+    background: rgb(46, 46, 46);
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    box-shadow: 0px -5px rgb(255, 187, 0);
+    clear: both;
+    margin-top: 50px;
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12;
+    float: bottom;
+}
+#hangman {
+    margin: 20px;
+    position: absolute;
+}
+#hangmantag {
+    position: absolute;
+    top: 60%;
+    padding: 10px;
+    background:  rgb(255, 187, 0);;
+    color: #fff;
+    text-align: center;
+    width: 130px;
+}
+#rpg {
+    margin: 20px;
+    position: absolute;
+    left: 20%;
+}
+#rpgtag {
+    position: absolute;
+    top: 60%;
+    padding: 10px;
+    background:  rgb(255, 187, 0);;
+    color: #fff;
+    text-align: center;
+    width: 130px;
+}
+#trivia {
+    margin: 20px;
+    position: absolute;
+    top: 280px;
+}
+#triviatag {
+    position: absolute;
+    top: 60%;
+    padding: 10px;
+    background:  rgb(255, 187, 0);;
+    color: #fff;
+    text-align: center;
+    width: 130px;
+}
+#rutgers {
+    margin: 20px;
+    position: absolute;
+    top: 280px;
+    left: 20%;
+}
+#rutgerstag {
+    position: absolute;
+    top: 60%;
+    padding: 10px;
+    background:  rgb(255, 187, 0);;
+    color: #fff;
+    text-align: center;
+    width: 130px;
+}
+#rps {
+    margin: 20px;
+    position: absolute;
+    top: 450px;
+}
+#rpstag {
+    position: absolute;
+    top: 60%;
+    padding: 10px;
+    background:  rgb(255, 187, 0);;
+    color: #fff;
+    text-align: center;
+    width: 130px;
+}
+/* unvisited link */
+a:link {
+    color: rgb(114, 114, 114);
+}
+
+/* visited link */
+a:visited {
+    color: rgb(59, 59, 59);
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(255, 187, 0);;
+}
+
+/* selected link */
+a:active {
+    color: rgb(255, 227, 149);;
+}
+a {
+    text-decoration: none;
+}
+#contactbox {
+    background: #fff;
+    margin-top: 20px;
+    width: 960px;
+    height: 595px;
+    clear: both;
+    float: center;
+    position: absolute;
+    left: 15%;
+    top: 120px;
+    border: 1px solid #afafaf;
+    margin-bottom: 100px;
+}
+#contacthead {
+    font-size: 28;
+    color:  rgb(255, 187, 0);;
+    box-shadow: 0px 1px #afafaf;
+    width: 900px;
+    margin-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+#contactarea {
+    margin: 20px;
+    margin-left: 30px;
+    margin-top: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#email {
+    width: 900px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    height: 30px;
+}
+#name {
+    width: 900px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    height: 30px;
+}
+#message {
+    width: 900px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    height: 200px;
+}
+button {
+    background-color: rgb(255, 187, 0);
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+    #header {
+        width: 100%;
+        height: 200px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #portfoliobox {
+        width: 400px;
+        top: 250px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #aboutbox {
+        width: 400px;
+        top: 250px;
+        height: 1000px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #sidelinks {
+        float: left;
+        padding-top: 135px;
+        float: middle;
+    }
+}
+@media only screen and (max-width: 700px) {
+    #aboutme {
+        width: 330px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    #portfoliohead {
+        width: 330px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #rpg {
+        left: 50%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #rutgers {
+        left: 50%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #contactbox {
+        width: 400px;
+        top: 250px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    #contacthead {
+        width: 330px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    #name {
+        width: 330px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    #email {
+        width: 330px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    #message {
+        width: 330px;
+    }
+}

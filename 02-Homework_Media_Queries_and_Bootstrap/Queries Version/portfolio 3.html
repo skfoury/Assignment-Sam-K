@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <section id="header">
+            <a href="portfolio.html"><div id="nametag">Sam Kfoury</div></a>
+            <div id="sidelinks"><a href="portfolio.html">About        </a>|<a href="portfolio 2.html">        Portfolio        </a>|<a href="portfolio 3.html">        Contact</a></div>
+        </section>
+        <section id="contactbox">
+            <div id="contacthead">Contact</div>
+            <section id="contactarea">
+            <div class="form-container">
+                
+                <form  method="post" id="reused_form" >
+                    <label for="name">Name</label>
+                    <br>
+                    <input id="name" type="text" name="Name" required maxlength="50">
+                    <br>
+                    <label for="email">Email</label>
+                    <br>
+                    <input id="email" type="email" name="Email" required maxlength="50">
+                    <br>
+                    <label for="message">Message</label>
+                    <br>
+                    <textarea id="message" name="Message" rows="10" maxlength="6000" required></textarea>
+              
+              
+                    <br>
+              
+                    <button class="button-primary" type="submit" >Submit</button>
+                </form>
+                <div  id="success_message" style="display:none">
+                    <h3>Submitted the form successfully!</h3>
+                    <p>
+                    We will get back to you soon.
+                    </p>
+                </div>
+                <div id="error_message"
+                      style="width:100%; height:100%; display:none; ">
+                          <h3>Error</h3>
+                          Sorry there was an error sending your form.
+              
+                </div>
+              </div>
+            </section>
+        </section>
+        <br>
+        <section id="footer">
+            <div id="copywrite">Copywrite ©</div>
+        </section>
+    </body>
+</html>
